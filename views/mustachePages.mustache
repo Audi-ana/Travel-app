@@ -1,0 +1,36 @@
+<html>
+<head>
+<link rel="stylesheet" href="css/version-1/style.css"/>
+</head>
+<body>
+ <header>
+  <h1>My Upcoming Adventures!</h1>
+  </header>
+  <div>
+    <form action='/add-trip' method="POST">
+    <input type="text" name="destination" placeholder="Enter destination"/>
+    <input type="text" name="image" placeholder="Enter image URL"/>
+    <input type="text" name ="departure" placeholder="Enter date of departure"/>
+    <input type="text" name ="return" placeholder="Enter return date"/>
+    <button type="submit">Save</button>
+    </form>
+  </div>
+  
+  <div id="tripsDiv">
+    {{#tripsList}}
+    <div class="tripDiv"> 
+    <b><i>{{place}}</i></b><br>
+    <img id="imageStyling"src='{{image}}'/>
+    <div>Departure: {{departure}}</div>
+    <div>You come back on: {{returnDate}}</div>
+   
+   <form action='/remove-trip' method='POST'>
+   <input type="hidden" name="removeContainer" value="{{place}}"/>
+   <button type="submit">Delete</button>
+   </form>
+   </div>
+    {{/tripsList}} 
+  </div>
+</body>
+
+</html>

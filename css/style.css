@@ -1,0 +1,26 @@
+h1{
+display: flex;
+justify-content: center;
+}
+
+body{
+    background-color:grey;
+    padding: 15px;
+}
+
+#imageStyling{
+    height: 300px;
+    width: 350px;
+}
+
+#tripsDiv{
+display: flex;
+flex-wrap: wrap;
+}
+
+.tripDiv{
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
+    justify-content: center;
+}
