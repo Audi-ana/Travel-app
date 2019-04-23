@@ -1,4 +1,5 @@
 <b> Trip Tracker</b>
 <div>An app that keeps track of you upcoming trips using Node.js and mustache.</div>
 <h1>Live Demo</h1>
-<img src="(https://user-images.githubusercontent.com/47336359/56553288-93ed3c80-6553-11e9-80e1-0fe887d25063.png)"/>
+![image](https://i9.ytimg.com/vi/ZP9Cf5hZ6XY/mq2.jpg?sqp=CIy3_OUF&rs=AOn4CLAL03CvzQP-QhwusTAtTC0ezKZIpA)
+https://youtu.be/ZP9Cf5hZ6XY
